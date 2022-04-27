@@ -1,0 +1,117 @@
+#navBar a{
+    text-decoration: none;
+    margin-left: 10%;
+    line-height: 2.5;
+    font-size: 1.5rem;
+    color: darkkhaki;
+   
+}
+#navBar{
+    background: brown;
+    height: 8vh;
+}
+#body{
+    height: 70vh;
+}
+.footer{
+    height: 20vh;
+    background-color: black;
+}
+
+.frame{
+    position: absolute;
+    top: 20%;
+	left: 40%;
+	width: 400px;
+	height: 400px;
+    background-color:darkkhaki ;
+    border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+}
+.head{ position: relative;
+    left: 40%;
+    top: 10%;
+    background-color: cadetblue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 2%;
+}
+.person{
+   margin-top: 10%;
+}
+.personBody{
+    position: relative;
+    top: 100%;
+    left: 35%;
+    height: 200px;
+    width: 100px;
+    background-color: cadetblue;
+}
+.leg{
+    width: 40px;
+    height: 80px;
+    background-color: cadetblue;
+}
+.leg-right{
+    position: relative;
+    top: 20%;
+    
+}
+.leg-left{
+    position: relative;
+    left: 60%;
+    top: 60%;
+   
+}
+.arm{
+    height: 40px;
+    width: 70px;
+    background-color: cadetblue;
+}
+.arm-right{
+    position: relative;
+    right: -90%;
+    top: -11%;
+    width: 110px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 30%;
+    transform: rotate(20deg);
+}
+.arm-left{
+    position: relative;
+    top: -2%;
+    left: -65%;
+    border-radius: 10px;
+    border-bottom-left-radius: 60%;
+    width: 70px;
+    animation: armleft 1.2s ease-in-out infinite alternate;
+}
+.upper1{
+    height: 40px;
+    width: 90px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+    right: 40px;
+    bottom: 25px;
+    background-color: cadetblue;
+    animation: upper 1s ease-in-out infinite alternate;
+}
+@keyframes upper {
+	0% {
+		transform: rotate(75deg);
+	}
+	100% {
+		transform: rotate(55deg);
+	}
+}
+@keyframes armleft {
+	0% {
+		transform: rotate(10deg);
+	}
+	100% {
+		transform: rotate(5deg);
+	}
+}

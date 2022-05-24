@@ -83,3 +83,20 @@ body{
 .img9{
     grid-column: span 2;
 }
+.imageDiv{
+    width: 250px;
+    height: 250px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.gallaryButton{
+    width:80px;
+    height: 30px;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-around;
+    
+}
